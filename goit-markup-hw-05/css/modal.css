@@ -34,11 +34,14 @@
   line-height: 150%;
   letter-spacing: 0.02em;
   text-align: center;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
 }
 .modal-form-wrap {
   width: 100%;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 .modal-form {
   display: flex;
